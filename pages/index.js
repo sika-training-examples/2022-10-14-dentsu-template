@@ -1,10 +1,18 @@
 import React from "react";
+import "normalize.css";
 
-let Index = () => {
+const style = {
+  backgroundColor: "grey",
+  height: "100vh",
+  margin: 0,
+  padding: 10,
+};
+
+const Index = () => {
   return (
-    <body>
+    <div style={style}>
       <h1>__PROJECT_NAME__</h1>
-    </body>
+    </div>
   );
 };
 
